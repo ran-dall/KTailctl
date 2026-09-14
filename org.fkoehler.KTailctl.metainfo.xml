@@ -50,6 +50,26 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="0.22.3" date="2026-09-14" urgency="medium">
+      <description>
+        <p>A small patch release fixing stale startup feedback, plus internal dependency and tooling
+          updates.</p>
+        <p>Fixes:</p>
+        <ul>
+          <li>Fix the launcher/cursor "still starting" feedback lingering after KTailctl has already
+            started</li>
+        </ul>
+      </description>
+      <url>https://github.com/f-koehler/KTailctl/releases/tag/v0.22.3</url>
+      <artifacts>
+        <artifact type="source">
+          <location>https://github.com/f-koehler/KTailctl/archive/refs/tags/v0.22.3.tar.gz</location>
+        </artifact>
+        <artifact type="source">
+          <location>https://github.com/f-koehler/KTailctl/releases/download/v0.22.3/ktailctl-wrapper-vendor-v0.22.3.tar.gz</location>
+        </artifact>
+      </artifacts>
+    </release>
     <release version="0.22.2" date="2026-08-21" urgency="medium">
       <description>
         <p>A patch release with a couple of fixes and a new logging option.</p>
